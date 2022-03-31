@@ -1,0 +1,18 @@
+[submodule "src/mav_trajectory_generation"]
+	path = src/mav_trajectory_generation
+	url = https://github.com/ethz-asl/mav_trajectory_generation.git
+[submodule "src/mav_comm"]
+	path = src/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "src/eigen_catkin"]
+	path = src/eigen_catkin
+	url = https://github.com/ethz-asl/eigen_catkin.git
+[submodule "src/eigen_checks"]
+	path = src/eigen_checks
+	url = https://github.com/ethz-asl/eigen_checks.git
+[submodule "src/glog_catkin"]
+	path = src/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "src/nlopt"]
+	path = src/nlopt
+	url = https://github.com/ethz-asl/nlopt.git
