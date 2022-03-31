@@ -1,0 +1,21 @@
+<!-- author: Dian Yuan-->
+<!-- launch file for victim signal node-->
+
+<launch>
+    <node name = "controller_node" pkg = "controller_pkg" type = "controller_node" output="screen"/>
+
+    <arg name="mav_name" default="firefly"/>
+    <!-- <node name="nextpoint" pkg="next_waypoint" type="nextpoint"/> -->
+
+    <!--- Trajectory planner -->
+    <node name="planner" pkg="next_waypoint" type="next_node" output="screen" clear_params = "true">
+        <!-- <rosparam command="load" file="$(find basic_waypoint_pkg)/config/trajectory_config.yaml"/> -->
+    </node>
+
+    <!--- Trajectory sampler -->
+    <node name="sampler" pkg="mav_trajectory_generation_ros" type="trajectory_sampler_node">
+        <remap from="path_segments_4D" to="trajectory"/>
+    </node>
+    
+     <node name = "victim_signal_node" pkg = "victim_signal_gen" type = "victim_signal_node" output="screen"/>
+</launch>

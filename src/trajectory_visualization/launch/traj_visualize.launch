@@ -1,0 +1,9 @@
+<launch>
+  <arg name="static" default="false" />
+
+  <!-- Marker publisher -->
+  <node name="traj_visualize_node" pkg="trajectory_visualization" type="traj_visualize_node"/>
+  <!-- Visualizer -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find trajectory_visualization)/config/traj.rviz"/>
+  
+</launch>

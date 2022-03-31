@@ -1,0 +1,1 @@
+VictimCoord[] coordinate
