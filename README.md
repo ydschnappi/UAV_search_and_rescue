@@ -5,7 +5,7 @@ This is the copy of cource project Autonomous System (LRG6300) 2021WS
 
 Imagine we are in an avalanche scenario, and victims are randomly separated in the different places. Number of victims is unknown. The goal of our UAV is to fly over the avalanche and locate all the victims in a short time.  
 
-For for details, please refer to our [report](/Report/Search_and_Rescue_Simulation_in_Avalanche.pdf) or [presentation slides](/Slides/Autonomous_Systems_Terminus_Presentation.pdf).
+For details, please refer to our [report](/Report/Search_and_Rescue_Simulation_in_Avalanche.pdf) or [presentation slides](/Slides/Autonomous_Systems_Terminus_Presentation.pdf).
 
 ## How to Set up and Run the Project
 
