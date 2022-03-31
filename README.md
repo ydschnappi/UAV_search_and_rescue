@@ -1,5 +1,5 @@
 # UAV_search_and_rescue
-This is the copy of cource project Autonomous System (LRG6300) 2021WS 
+This is the copy of cource project Autonomous System (LRG6300), 2021WS, Technical University of Munich
 
 ## Introduction
 
@@ -12,7 +12,7 @@ For details, please refer to our [report](/Report/Search_and_Rescue_Simulation_i
 
 ### 1. Set up:
 
-1. in folder /scr, add Submodule
+1. in folder /src, add Submodule
 
    ```
    git submodule add https://github.com/ethz-asl/mav_trajectory_generation.git
