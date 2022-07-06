@@ -76,34 +76,5 @@ We have two search models
 
 ## Contributors
 
+  **Dian Yuan**, Yang Xu, Yinglei Song,  Jianyu Tang, Yubo Min
 
-- **Code**
-
-| Package                  | Function                    | Coder                                | Debugger                       |
-| ------------------------ | --------------------------- | ------------------------------------ | ------------------------------ |
-| planning                 | plan the trajectory         | **Dian Yuan**, Yinglei Song          | **Dian Yuan**, Yinglei Song        |
-| next_waypoint            | generate the waypoints      | Yang Xu                              | Yang Xu                        |
-| victim_signal_gen        | generate the victim signal  | **Dian Yuan**                        | **Dian Yuan**, Yinglei Song        |
-| trajectory_visualization | show the trajectory         | **Dian Yuan**                        | **Dian Yuan**                      |
-| Inch-by-inch Searcher    | A simple way to search      | Yang Xu                              | Yang Xu                        |
-
-- **Build**
-
-| Files                   | Coder                                | Debugger                       |
-| ------------------------  | ------------------------------------ | ------------------------------ |
-| Each Package's CMakeLists.txt and Package.xml | Yang Xu, **Dian Yuan** | Yang Xu        |
-| Dockerfile           | Yang Xu                              | Yang Xu                        |
-
-
-- **Algorithm of planning**
-
-  **Dian Yuan**, Yinglei Song,  Jianyu Tang, Yubo Min
-
-
-- **Report**
-
-  Jianyu Tang
-
-- **Slides for Presentation**
-
-  Yinglei Song, Yubo Min
