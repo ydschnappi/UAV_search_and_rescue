@@ -41,11 +41,6 @@ For details, please refer to our [report](/Report/Search_and_Rescue_Simulation_i
 ### 2. Run the Project
 If you want to run in Docker, please read [here](/Docker/README.md)  
 If you want to run in your own Linux environment(with ROS melodic or noetic installed), please read below:  
-We have two search models
-
-- An intuitive idea, Inch-by-Inch Search 
-
-  Read the [How to run inch-by-inch search](/src/README.md)
 
 - An optimized Planning Method
 
