@@ -7,6 +7,7 @@ Imagine we are in an avalanche scenario, and victims are randomly separated in t
 
 For details, please refer to our [report](/Report/Search_and_Rescue_Simulation_in_Avalanche.pdf) or [presentation slides](/Slides/Autonomous_Systems_Terminus_Presentation.pdf).
 
+
 ## How to Set up and Run the Project
 
 
@@ -73,6 +74,8 @@ We have two search models
      ```
      rosrun planning planning_node
      ```
+     
+- You will see the drone traverse the full map according to the algorithm until it finds all the victims and prints their coordinates in the terminal. You can see the location of the victims and the drone's trajectory in the rviz interface. Unfortunately, there is a bug in the unity file that makes the interface not move with the drone, we only got the final executable from the course team and not the source code, so we can't fix it.
 
 ## Contributors
 
